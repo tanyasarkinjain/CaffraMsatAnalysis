@@ -91,7 +91,7 @@ SAGraphMsatSP
 V(SAGraphMsatSP)$Latitude
 V(SAGraphMsatSP)$Longitude
 
-register_google(key = 'AIzaSyDQIIitnLwt_DfIJugW2ZrnEYYLIW6l2yQ')
+register_google(key = '##')
 
 #spatially plot the popgraph
 OverallCentroid <- c(mean(V(SAGraphMsatSP)$Longitude), mean(V(SAGraphMsatSP)$Latitude))

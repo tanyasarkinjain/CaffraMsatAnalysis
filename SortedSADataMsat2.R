@@ -131,7 +131,7 @@ PopulationCentroids2
 SAGraphMsatSP2 <- decorate_graph(SAGraphMsat2, PopulationCentroids2, stratum = "Population")
 SAGraphMsatSP2
 
-register_google(key = 'AIzaSyDQIIitnLwt_DfIJugW2ZrnEYYLIW6l2yQ')
+register_google(key = '##')
 
 #spatially plot the popgraph
 OverallCentroid2 <- c(mean(V(SAGraphMsatSP2)$Longitude), mean(V(SAGraphMsatSP2)$Latitude))

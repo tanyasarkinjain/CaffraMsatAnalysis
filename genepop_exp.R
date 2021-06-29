@@ -171,7 +171,7 @@ centroid
 #https://www.nceas.ucsb.edu/sites/default/files/2020-04/ggmapCheatsheet.pdf
 
 maptype = c("roadmap", "terrain", "satellite", "hybrid")
-register_google(key = 'AIzaSyDQIIitnLwt_DfIJugW2ZrnEYYLIW6l2yQ')
+register_google(key = '##')
 
 myLocation = c(lon = -111.39669, lat = 25.65789)
 typeof(myLocation)
